@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceChatAPI.API", "VoiceChatAPI.API.csproj", "{CF737D57-2674-4577-B7B4-0B094356B0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceChatAPI.Domain", "..\VoiceChatAPI.Domain\VoiceChatAPI.Domain.csproj", "{089D5607-DD06-4019-AA07-C1C22F4B2EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceChatAPI.Application", "..\VoiceChatAPI.Application\VoiceChatAPI.Application.csproj", "{F8F9EA68-8E20-4C2F-A974-1F25FCA43583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceChatAPI.Security", "..\VoiceChatAPI.Security\VoiceChatAPI.Security.csproj", "{FD9BED1B-928E-46D6-B044-52DFC2EDE52B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF737D57-2674-4577-B7B4-0B094356B0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF737D57-2674-4577-B7B4-0B094356B0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF737D57-2674-4577-B7B4-0B094356B0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF737D57-2674-4577-B7B4-0B094356B0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089D5607-DD06-4019-AA07-C1C22F4B2EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089D5607-DD06-4019-AA07-C1C22F4B2EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089D5607-DD06-4019-AA07-C1C22F4B2EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089D5607-DD06-4019-AA07-C1C22F4B2EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F9EA68-8E20-4C2F-A974-1F25FCA43583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F9EA68-8E20-4C2F-A974-1F25FCA43583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F9EA68-8E20-4C2F-A974-1F25FCA43583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F9EA68-8E20-4C2F-A974-1F25FCA43583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9BED1B-928E-46D6-B044-52DFC2EDE52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9BED1B-928E-46D6-B044-52DFC2EDE52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9BED1B-928E-46D6-B044-52DFC2EDE52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9BED1B-928E-46D6-B044-52DFC2EDE52B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E04C49-1CE7-42CD-B38E-9C01290523EC}
+	EndGlobalSection
+EndGlobal
